@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Agbalumo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
-body{
+body {
     height: 100vh;
     background: linear-gradient(120deg, #ffe53bd8, #ff2525da);
     display: flex;
@@ -13,7 +13,7 @@ body{
     justify-content: center;
 }
 
-.relogio{
+.relogio {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -21,10 +21,10 @@ body{
     width: 550px;
     background: transparent;
     border-radius: 3px;
-    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5); 
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
 }
 
-.relogio.div {
+.relogio div {
     height: 170px;
     width: 150px;
     display: flex;
@@ -38,7 +38,7 @@ body{
     letter-spacing: 3px;
 }
 
-.relogio.span {
+.relogio span {
     font-weight: bolder;
     font-size: 60px;
 }
